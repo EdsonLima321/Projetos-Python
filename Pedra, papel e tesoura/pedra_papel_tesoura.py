@@ -1,7 +1,7 @@
 import random
 
 def jogar():
-    usuario = input("Jogo de Pedra, Papel e Tesoura\nQual voce vai jogar?\n('pe' para pedra, 'pa' para papel, 'te' para tesoura):\n")
+    usuario = input("Jogo de Pedra, Papel e Tesoura\nQual voce vai jogar?\n('pe' para pedra, 'pa' para papel, 'te' para tesoura): ")
     computador = random.choice(['pe', 'pa', 'te'])  
 
     if usuario == computador:
